@@ -1,0 +1,24 @@
+Summary choices:
+  - Changing feature names in the train_train to match real/detailed feature names for ease of understanding
+
+Codebook:
+
+data_url : URL to zipped data set
+features : detailed features names from features.txt found in UCI HAR Dataset folder
+activity_labels : detailed activities names from activity_labels.txt found in UCI HAR Dataset folder
+train_X : feature data from training set from X_train.txt found in UCI HAR Dataset folder/train folder
+train_subject_id : numeric subject id in training set
+train_y : feature data from training set from X_train.txt found in UCI HAR Dataset folder/train folder
+data_train : combined data set from train_x and train_y
+test_X : feature data from training set from test_X.txt found in UCI HAR Dataset folder/test folder
+test_subject_id : data from training set from test_subject_id.txt found in UCI HAR Dataset folder/test folder
+test_y : feature data from training set from test_y.txt found in UCI HAR Dataset folder/test folder
+data_test : combined data set 
+colnames(data_test)[c(1:2)] : Pulling column names to data set
+mean.features : column names for mean features
+std.features : column names for mean features
+data_mean_std : data sub set of combined mean and standard deviation
+tidy_data : final tidy data set
+
+Study Design:
+  - Pre-existing data, data set pulled from URL
